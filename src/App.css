@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+.para{
+    transition: "opacity 2s ease" 
+}
+.backg{
+    background-image: url("../src/assets/download.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: auto;
+    border-radius: 2%;
+    width: 100%;
+}
