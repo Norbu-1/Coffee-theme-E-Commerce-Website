@@ -58,12 +58,6 @@ const History = () => {
         <p className="pb-2">
           <strong>Weight Management:</strong> Caffeine can boost metabolism and promote fat burning, aiding in weight management.
         </p>
-        <p className="pb-2">
-          <strong>Liver Health:</strong> Coffee consumption may be associated with a reduced risk of liver diseases like cirrhosis and liver cancer.
-        </p>
-        <p className="pb-2">
-          <strong>Social Benefits:</strong> Coffee often serves as a social beverage, facilitating social interaction and networking.
-        </p>
       </div>
      
     </div>

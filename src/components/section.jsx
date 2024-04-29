@@ -65,7 +65,7 @@ const ProductList = ({ data, handleBlog }) => {
       const productDislikes = dislikes[item.id] || 0;
       return (
         <div
-          className="bg-yellow-500 rounded-lg my-6 md:w-60  shadow-lg"
+          className="bg-yellow-500 rounded-lg my-6 md:w-60  shadow-lg mx-6"
           key={item.id}
         >
           <p>
@@ -111,7 +111,7 @@ const ProductList = ({ data, handleBlog }) => {
     <div className="my-8 w-[90%] px-4">
       {location.pathname === "/Blog" ? (
         // Render all slides individually instead of using Slider component
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 pl-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 w-full">
           {renderSlides()}
         </div>
       ) : (
