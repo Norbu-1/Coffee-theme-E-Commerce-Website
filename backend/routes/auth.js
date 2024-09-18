@@ -4,7 +4,7 @@ const User = require('../models/User');
 const jwt = require('jsonwebtoken');
 const { sendOtp, verifyOtp } = require('../utils/otpUtils');
 
-const JWT_SECRET = 'babbc0745649c1d5fe92a38bd80f5f486c183015be41eb61a225c36243246be9';
+const JWT_SECRET = '';
 
 // Send OTP
 router.post('/send-otp', async (req, res) => {

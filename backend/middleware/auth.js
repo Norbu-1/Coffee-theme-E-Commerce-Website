@@ -1,6 +1,6 @@
 // src/middleware/auth.js
 const jwt = require('jsonwebtoken');
-const JWT_SECRET = 'babbc0745649c1d5fe92a38bd80f5f486c183015be41eb61a225c36243246be9'; // Use environment variable in production
+const JWT_SECRET = ''; // Use environment variable in production
 
 
 module.exports = async (req, res, next) => {

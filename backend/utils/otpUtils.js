@@ -1,9 +1,9 @@
 const twilio = require('twilio');
 
-const accountSid = 'AC5f20417f54699eeab4d232b3e7412d73'; // Your Account SID
-const authToken = '27ef94391d6c07a13aff82b0f531b008';   // Your Auth Token
+const accountSid = ''; // Your Account SID
+const authToken = '';   // Your Auth Token
 const client = new twilio(accountSid, authToken);
-const serviceId = 'VAfed0d90fb287b7bc7136e6ff0a62c6f0'; // Your Twilio Verify Service SID
+const serviceId = ''; // Your Twilio Verify Service SID
 
 const sendOtp = async (phoneNumber) => {
   try {
