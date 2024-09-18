@@ -1,11 +1,13 @@
 import image1 from "../assets/istock2.jpg";
 import { Link } from "react-router-dom";
+import Login from "./Login";
+import Register from "./Register";
 const Header = () => {
   return (
     <div className="md:flex justify-between items-center py-8 h-full md:pt-[100px] ">
       <div className="w-full h-full md:w-1/2">
         <img
-          className="md:px-8 mx-auto md:pl-16 object-cover w-[90%] h-[300px] md:h-[400px] md:rounded-r-full rounded-b-full md:rounded-bl-none"
+          className="md:px-8 mx-auto md:pl-16 object-cover w-[95%] h-[300px] md:h-[400px] md:rounded-r-full rounded-b-full md:rounded-bl-none"
           src={image1}
           alt="Yellow Cup"
         />
@@ -23,10 +25,9 @@ const Header = () => {
           Discover more to enhance your coffee experience, you may want to
           explore and learn more about your favorite coffee. This reminder can
           help you get started on that journey.
-          {/* {quotes} */}
         </p>
         <div className="gap-4 flex mt-4">
-          <Link  className="bg-yellow-300 px-3 rounded-lg font-semibold py-3" to="/Blog">
+          <Link  className="bg-yellow-300 px-3 rounded-lg font-semibold py-3" to="/List">
             Discover More
           </Link>
         </div>

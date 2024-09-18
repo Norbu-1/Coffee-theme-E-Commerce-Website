@@ -3,7 +3,7 @@ import image from "../assets/history.jpg";
 import image1 from "../assets/bg.avif";
 const History = () => {
   return (
-    <div>
+    <div className='text-red-900'>
         <div className="md:flex   mx-auto w-[90%] md:h-[24rem] bg-yellow-300 "><img className="md:w-[40%] md:h-full" src={image} alt="" />
       <div className="bg-yellow-300 w-auto px-2 md:pl-20 py-6">
       <h2 className="text-2xl font-bold pb-4">Coffee Making Process</h2>
