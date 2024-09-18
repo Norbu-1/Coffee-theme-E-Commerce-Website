@@ -1,4 +1,9 @@
+const twilio = require('twilio');
 
+const accountSid = ''; // Your Account SID
+const authToken = '';   // Your Auth Token
+const client = new twilio(accountSid, authToken);
+const serviceId = ''; // Your Twilio Verify Service SID
 
 
 
