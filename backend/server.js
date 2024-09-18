@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://Norbu03:norbu351@cluster0.uxwe4og.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('###', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => {
