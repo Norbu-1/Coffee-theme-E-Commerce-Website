@@ -3,7 +3,7 @@ import image from "../assets/history.jpg";
 import image1 from "../assets/bg.avif";
 const History = () => {
   return (
-    <div>
+    <div className='text-red-900'>
         <div className="md:flex   mx-auto w-[90%] md:h-[24rem] bg-yellow-300 "><img className="md:w-[40%] md:h-full" src={image} alt="" />
       <div className="bg-yellow-300 w-auto px-2 md:pl-20 py-6">
       <h2 className="text-2xl font-bold pb-4">Coffee Making Process</h2>
@@ -57,12 +57,6 @@ const History = () => {
         </p>
         <p className="pb-2">
           <strong>Weight Management:</strong> Caffeine can boost metabolism and promote fat burning, aiding in weight management.
-        </p>
-        <p className="pb-2">
-          <strong>Liver Health:</strong> Coffee consumption may be associated with a reduced risk of liver diseases like cirrhosis and liver cancer.
-        </p>
-        <p className="pb-2">
-          <strong>Social Benefits:</strong> Coffee often serves as a social beverage, facilitating social interaction and networking.
         </p>
       </div>
      
